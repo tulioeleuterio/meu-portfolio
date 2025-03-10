@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, #00bcd4, #4a148c);
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .card {
+            background: #1e1e1e;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00bcd4;
+        }
+        a {
+            color: #00bcd4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .glow:hover {
+            text-shadow: 0 0 10px #00bcd4;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            background: #222;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Meu Portfólio Tecnológico</header>
+
+    <section>
+        <h2>Sobre Mim</h2>
+        <div class="card">
+            <p>Olá! Sou um entusiasta de tecnologia e inteligência artificial, sempre buscando criar soluções inovadoras para empresas e projetos pessoais.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projetos</h2>
+        <div class="card">
+            <p><strong>Chatbot Inteligente:</strong> Desenvolvi um assistente virtual baseado em IA para atendimento automatizado.</p>
+        </div>
+        <div class="card">
+            <p><strong>App de Automação:</strong> Criei um aplicativo que usa IA para automatizar tarefas repetitivas em pequenas empresas.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Ideias para Empresas</h2>
+        <div class="card">
+            <p><strong>IA para E-commerce:</strong> Algoritmo de recomendação avançado para personalizar compras.</p>
+        </div>
+        <div class="card">
+            <p><strong>Análise de Dados com IA:</strong> Ferramenta para prever tendências de mercado e ajudar nas decisões estratégicas.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
+        <div class="card">
+            <p>Email: <a class="glow" href="mailto:seuemail@email.com">seuemail@email.com</a></p>
+            <p>LinkedIn: <a class="glow" href="https://linkedin.com/in/seuperfil" target="_blank">linkedin.com/in/seuperfil</a></p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Meu Portfólio. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
